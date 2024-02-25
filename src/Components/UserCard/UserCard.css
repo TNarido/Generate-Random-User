@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Varela+Round&display=swap');
+
+.card {
+    color: white;
+    width: 400px;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 40rem;
+    background-color: #343a40;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    display: block;
+}
+.image {
+    margin: auto;
+}
+
+.image > img {
+    margin-left: 59px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: 5px white solid;
+    margin-top: 50px;
+}
+
+.card .info {
+    flex-direction: column;
+    align-items: start;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 1.2em;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.card .order {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    margin-top: -10px;
+    margin-left: -40px;
+    background-color: #adb5bd;
+    border: 5px solid white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 30px;
+}

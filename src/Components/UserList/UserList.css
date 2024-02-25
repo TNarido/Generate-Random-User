@@ -1,0 +1,20 @@
+main{
+    width: 100%;
+    height: auto;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 1rem;
+    row-gap: 50px;
+    overflow-y: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+main h1{
+    color: white;
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Varela+Round&display=swap');
+
+select{
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 10px 15px;
+    font-size: 24px;
+    background-color: white;
+    margin-left: 1.5rem;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Varela Round', sans-serif;
+}
+
+select option{
+    padding: 10px 25px;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Varela Round', sans-serif;
+}

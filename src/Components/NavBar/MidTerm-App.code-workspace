@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "MidTerm-App",
+			"path": "../../.."
+		},
+		{
+			"name": "countries-app",
+			"path": "../../../../countries-app"
+		}
+	],
+	"settings": {}
+}
